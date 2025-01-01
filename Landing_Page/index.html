@@ -3,138 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Blasto Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <header class="header-content"> 
-            <a href="#logo" class="logo">
-                <span class="logo-text">Blasto</span>
-            </a>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <a href="#home" class="logo">Blasto</a>
             <nav class="nav">
-                <a href="#home" class="nav-link">Home</a>
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#about" class="nav-link">About</a>
-            </nav>                        
-        </header>
-    </div>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <div class="main-section">
-        <div class="main-section-bg-content">
-            <h2>Immerse Yourself in Sound, Elevate Your World</h2>
-            <p>Experience exceptional sound with our headphones—designed to immerse yourself in sound and elevate your world. With powerful audio and ultimate comfort, every moment becomes extraordinary.</p>
-            <button>Order Now</button>
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="main-section-content">
+            <h1>Immerse Yourself in Sound, Elevate Your World</h1>
+            <p>
+                Experience exceptional sound with our headphones—designed to immerse yourself in sound and elevate your world.
+                With powerful audio and ultimate comfort, every moment becomes extraordinary.
+            </p>
+            <button class="order-btn">Order Now</button>
         </div>
-        <div class="main-section-background">
-            <img src="images/Headphone.jpg" alt="headphone-img">
+        <div class="main-section-image">
+            <img src="images/Headphone.jpg" alt="Headphone Image">
         </div>
-    </div>
-
-    <section class="main-section-2">
-        <img src="images/Headphone_black.jpg" alt="black_headphones_img">
-        <div class="main-section-2-heading">
-            <h2>Feel the music</h2>
-            <p>Experience sound like never before with Blasto — where innovation meets crystal-clear audio</p>
-        </div>
-        <button class="read-more-button">
-            Read More
-        </button>
     </section>
 
+    <!-- Secondary Section -->
+    <section class="secondary-section">
+        <img src="images/Headphone_black.jpg" alt="Black Headphones">
+        <div class="secondary-content">
+            <h2>Feel the Music</h2>
+            <p>Experience sound like never before with Blasto — where innovation meets crystal-clear audio.</p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
     <section class="gallery-section">
         <div class="image-gallery">
-          <img src="images/image-1.jpg" alt="" class="big" />
-          <img src="images/image-4.jpg" alt="" class="big" />
-          <img src="images/image-3.jpg" alt="" class="big" />
-          <img src="images/image-6.jpg" alt="" class="big" />
-          <img src="images/image-5.jpg" alt="" class="big" />
-          <img src="images/image-2.jpg" alt="" class="big" />
+            <img src="images/image-1.jpg" alt="Gallery Image 1" class="gallery-item big">
+            <img src="images/image-2.jpg" alt="Gallery Image 2" class="gallery-item">
+            <img src="images/image-3.jpg" alt="Gallery Image 3" class="gallery-item">
+            <img src="images/image-4.jpg" alt="Gallery Image 4" class="gallery-item">
+            <img src="images/image-5.jpg" alt="Gallery Image 5" class="gallery-item">
+            <img src="images/image-6.jpg" alt="Gallery Image 6" class="gallery-item">
         </div>
-      </section>
+    </section>
 
-      <div class="footer-container">
-        <footer class="footer">
-            <div class="footer-top">
-
-                <div class="comp-logo">
-                    <a class="logo-link" href="#">
-                        Blasto
-                    </a>
-                </div>
-
-                <form class="email-form">
-                    <input class="email" placeholder="Email"/>
-
-                    <button class="email-send-button">
-                        Send
-                    </button>
-                </form>
-
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#home" class="logo-link">Blasto</a>
             </div>
-
-            <div class="footer-grid">
-                <!-- column 1 -->
-                <div class="footer-grid-column">
-                    <div class="footer-grid-heading">
-                        Products
-                    </div>
-                    <ul class="footer-links-list">
-                        <li>
-                            <a href="#overview" class="footer-link">Headphones</a>
-                        </li>
-                        <li>
-                            <a href="#overview" class="footer-link">Earphones</a>
-                        </li>
-                        <li>
-                            <a href="#overview" class="footer-link">Speakers</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- column 2 -->
-                <div class="footer-grid-column">
-                    <div class="footer-grid-heading">
-                        Company
-                    </div>
-                    <ul class="footer-links-list">
-                        <li>
-                            <a href="#overview" class="footer-link">About</a>
-                        </li>
-                        <li>
-                            <a href="#overview" class="footer-link">Clients</a>
-                        </li>
-                        <li>
-                            <a href="#overview" class="footer-link">Outlets</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- column 3 -->
-                <div class="footer-grid-column">
-                    <div class="footer-grid-heading">
-                        Support
-                    </div>
-                    <ul class="footer-links-list">
-                        <li>
-                            <a href="#overview" class="footer-link">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#overview" class="footer-link">Documentation</a>
-                        </li>
-                        <li>
-                            <a href="#overview" class="footer-link">Chat</a>
-                        </li>
-                        <li>
-                            <a href="#overview" class="footer-link">FAQ </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </footer>
-        <div class="footer-copyright">
-            &copy 2024 - All rights reserved.
+            <form class="email-form">
+                <input type="email" class="email-input" placeholder="Enter your email">
+                <button type="submit" class="email-btn">Subscribe</button>
+            </form>
         </div>
-    </div>
-      
+        <div class="footer-links">
+            <div>
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#headphones">Headphones</a></li>
+                    <li><a href="#earphones">Earphones</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#outlets">Outlets</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#chat">Chat</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Blasto. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
