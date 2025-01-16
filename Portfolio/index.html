@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="header">
-        <header class="header-content"> 
+        <header class="header-content">
             <a href="#logo" class="logo">
                 <span class="logo-text">HG</span>
             </a>
-            
+
             <nav class="nav">
                 <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#tech_stack" class="nav-link">Tech Stack</a>
+                <a href="#proficiencies" class="nav-link">Proficiencies</a>
                 <a href="#projects" class="nav-link">Projects</a>
-                <a href="#socials" class="nav-link">Socials</a>
-                <a href="#contact" class="nav-link">Contact Me</a>         
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact Me</a>
             </nav>
         </header>
     </div>
 
-    <div class="about">
+    <div class="about" id="home">
         <section class="main-section">
             <div class="about-left">
                 <h1 class="section-title">Hi... This is Hemant Garg</h1>
                 <p class="section-description">
-                    As an aspiring software engineer with a strong expertise in C++, I am deeply passionate about web development and cybersecurity, constantly seeking to expand my skills and knowledge to build innovative solutions while ensuring robust security measures in the ever-evolving digital landscape.</p>
+                    As an aspiring software engineer with a strong expertise in C++, I am deeply passionate about web
+                    development and cybersecurity, constantly seeking to expand my skills and knowledge to build
+                    innovative solutions while ensuring robust security measures in the ever-evolving digital landscape.
+                </p>
                 <div class="button-group">
                     <a href="#contact_me" class="contact-button">Contact Me</a>
                     <a href="#view_resume" class="view-button">View Resume</a>
@@ -38,11 +43,240 @@
 
             <div class="about-right">
                 <div class="image-container">
-                    <img src="images/Admin.webp" alt="sectionImage" class="section-image"> 
+                    <img src="images/Admin.webp" alt="Admin" class="section-image">
                 </div>
             </div>
         </section>
     </div>
 
+    <div class="technology-container" id="tech_stack">
+        <h2 class="technology-title">Tech Stack</h2>
+        <div class="technology-grid">
+
+            <div class="technology-logo">
+                <a href="#html"><img src="images/HTML.svg" alt="html-logo" class="svg-img"></a>
+            </div>
+            <div class="technology-logo">
+                <a href="#css"><img src="images/CSS.svg" alt="css-logo" class="svg-img"></a>
+            </div>
+            <div class="technology-logo">
+                <a href="#js"><img src="images/JS.svg" alt="js-logo" class="svg-img"></a>
+            </div>
+            <div class="technology-logo">
+                <a href="#mongodb"><img src="images/MongoDB.svg" alt="mongodb-logo" class="svg-img"></a>
+            </div>
+            <div class="technology-logo">
+                <a href="#react"><img src="images/React.svg" alt="react-logo" class="svg-img"></a>
+            </div>
+            <div class="technology-logo">
+                <a href="#nodejs"><img src="images/Nodejs.svg" alt="nodejs-logo" class="svg-img"></a>
+            </div>
+            <div class="technology-logo">
+                <a href="#aws"><img src="images/AWS.svg" alt="aws-logo" class="svg-img"></a>
+            </div>
+            <div class="technology-logo">
+                <a href="#azure"><img src="images/Azure.svg" alt="azure-logo" class="svg-img"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="proficiency" id="proficiencies">
+        <div class="proficiency-content">
+            <div class="main-info">
+                <h2 class="main-title">My proficiencies</h2>
+                <p class="main-description">I turn ideas into reality by crafting responsive UIs, building robust
+                    back-end systems, and securing applications. From full-stack development to blockchain, I tackle
+                    complex challenges with innovative solutions.</p>
+            </div>
+            <div class="proficiency-grid">
+                <!-- card 1 -->
+                <div class="proficiency-card">
+                    <div class="proficiency-info">
+                        <div class="proficiency-title">
+                            <a href="#frontend">Front-end web development </a>
+                        </div>
+                        <div class="proficiency-description">
+                            <a href="#frontend">Built dynamic, responsive UIs using HTML, CSS, JavaScript, and React</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="proficiency-card">
+                    <div class="proficiency-info">
+                        <div class="proficiency-title">
+                            <a href="#backend">Back-end web development</a>
+                        </div>
+                        <div class="proficiency-description">
+                            <a href="#backend">Developed server-side APIs and applications with Node.js and Express.</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="proficiency-card">
+                    <div class="proficiency-info">
+                        <div class="proficiency-title">
+                            <a href="#mernStack">MERN Stack web development</a>
+                        </div>
+                        <div class="proficiency-description">
+                            <a href="#mernStack">Built full-stack apps using MongoDB, Express, React, and Node.js.</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="proficiency-card">
+                    <div class="proficiency-info">
+                        <div class="proficiency-title">
+                            <a href="#systemDesign">System Design</a>
+                        </div>
+                        <div class="proficiency-description">
+                            <a href="#systemDesign">Designed scalable systems with microservices and RESTful APIs.</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="proficiency-card">
+                    <div class="proficiency-info">
+                        <div class="proficiency-title">
+                            <a href="#cybersecurity">Cybersecurity</a>
+                        </div>
+                        <div class="proficiency-description">
+                            <a href="#cybersecurity">Secured web apps and networks with encryption and vulnerability
+                                assessments.</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="proficiency-card">
+                    <div class="proficiency-info">
+                        <div class="proficiency-title">
+                            <a href="#blockchain">Blockchain Technology</a>
+                        </div>
+                        <div class="proficiency-description">
+                            <a href="#blockchain">Developed Apps and smart contracts on Ethereum with Solidity.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-container" id="projects">
+        <div class="projects-content">
+            <h2 class="projects-title">
+                Projects
+            </h2>
+            <div class="projects-grid">
+                <!-- card 1 -->
+                <div class="projects-card">
+                    <div class="projects-details">
+                        <h3 class="projects-name">
+                            <a href="#Creative_Portfolio_Website">Creative-Portfolio-Website</a>
+                        </h3>
+                    </div>
+                    <div class="projects-text">
+                        "I developed a creative portfolio website using HTML, CSS, and JavaScript, featuring a
+                        responsive layout, interactive elements, and optimized performance for a seamless user
+                        experience."
+                    </div>
+                </div>
+                <!-- card2 -->
+                <div class="projects-card">
+                    <div class="projects-details">
+                        <h3 class="projects-name">
+                            <a href="#Real_estate_Management">Real estate Management</a>
+                        </h3>
+                    </div>
+                    <div class="projects-text">
+                        "Real Estate Management is a MERN stack project that enables efficient property listing,
+                        management, and client interaction with a seamless and responsive user interface."
+                    </div>
+                </div>
+                <!-- card3 -->
+                <div class="projects-card">
+                    <div class="projects-details">
+                        <h3 class="projects-name">
+                            <a href="#Peer_to_peer_carpooling">Peer_to_peer_carpooling</a>
+                        </h3>
+                    </div>
+                    <div class="projects-text">
+                        "Peer-to-Peer Carpooling is a blockchain-based app that facilitates secure, transparent, and
+                        decentralized carpooling, enabling users to easily connect, share rides, and verify transactions
+                        without the need for intermediaries."
+                    </div>
+                </div>
+            </div>
+            <div class="more-projects">
+                <a href="#more_projects" class="projects-button">More Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="certificates-container" id="achievements">
+        <h2 class="certificates-title">Achievements and Certifications</h2>
+        <div class="certificates-grid">
+
+            <div class="certificates-logo">
+                <a href="https://cloud.google.com"><img src="images/Google_Cloud.svg" alt="google_cloud_logo"
+                        class="svg-img"></a>
+            </div>
+
+            <div class="certificates-logo">
+                <a href="https://azure.microsoft.com"><img src="images/Azure.svg" alt="azure_logo" class="svg-img"></a>
+            </div>
+
+            <div class="certificates-logo">
+                <a href="https://developers.google.com/"><img src="images/Google_assistant_action.svg"
+                        alt="google_assistant_logo" class="svg-img"></a>
+            </div>
+
+            <div class="certificates-logo">
+                <a href="https://aws.amazon.com/"><img src="images/AWS.svg" alt="aws_logo" class="svg-img"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contact-container" id="contact">
+        <div class="contact-content">
+            <!-- left part -->
+            <div class="contact-left">
+                <img src="images/Admin_coding.jpg" alt="admin-img" loading="lazy">
+            </div>
+            <!-- right part -->
+            <div class="contact-right">
+
+                <div class="contact-info">
+                    <h2 class="contact-title">
+                        Reach out to me!
+                    </h2>
+                    <p class="contact-desc">
+                        Sign me your Queries
+                    </p>
+                </div>
+                <form class="contact-form">
+                    <input class="contact-email" type="email" placeholder="xyz@gmail.com">
+
+                    <button class="contact-send-button">
+                        Send
+                    </button>
+                </form>
+
+                <div class="privacy-policy">
+                    By signing up to my website you agree to our
+                    <a class="contact-link">
+                        Terms of Service
+                    </a>
+                    and
+                    <a class="contact-link">
+                        Privacy policy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        &copy; 2025 - Present StudySync. All rights reserved.
+    </div>
 </body>
+
 </html>
